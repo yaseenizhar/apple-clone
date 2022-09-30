@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+
+#navbar{    
+    display: flex;
+    align-items: center;
+    width: 101%;
+}
+#navbar::before{
+    content: "";
+    background-color: #060606;
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.4;
+}
+
+#logo{
+    margin: 10px 10px;
+    margin-left: 18%;
+    margin-top: 15px;
+}
+#logo img{
+    height: 27px;
+    margin: -12px 33px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52%;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 5px;
+    margin-left: -4.3%;
+    cursor: pointer;
+}
+#navbar ul li{
+    /* color: black; */
+    list-style: none;
+    font-size: 12px;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #c8c8c8;
+}
+#navbar ul li :hover{
+    /* color: white; */
+}
+
+.background{
+    padding: 25px 30px;
+    text-align: center;
+    background-color: #242424;
+
+}
+.background p a{
+    color: rgb(153, 197, 230);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    /* letter-spacing: 0.5px; */
+    margin-left: 10%;    
+    text-decoration: none;
+}
+.background p a:hover{
+    text-decoration: underline;
+}
+
+.img{
+    margin-left: 12px;
+}
+hr{
+    height: 20px;
+}
+
+.box{
+    background-color: #1c1c21;
+    position: absolute;
+    top: 89%;
+    width: 100%;
+    height: 10px;
+}
+.box{
+    background-color: #1c1c21;
+    position: absolute;
+    top: 89%;
+    width: 100%;
+    height: 10px;
+}
+
+.background p img{
+    position: absolute;
+    height: 8rem;
+    bottom: 84.5%;
+    left: 37rem;
+}
+
+.img #learnmore a{
+    position: absolute;
+    top: 31%;
+    left: 43.9%;
+    font-size: 20px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor: pointer;
+    color: rgb(153, 191, 230);
+    text-decoration: none;
+}
+
+.img #learnmore a:hover{
+    text-decoration: underline;
+}
+
+.img #buy a{
+    position: absolute;
+    top: 31%;
+    left: 53%;
+    font-size: 20px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor: pointer;
+    color: rgb(153, 191, 230);
+    text-decoration: none;
+}
+
+.img #buy a:hover{
+    text-decoration: underline;
+}
+
+
+.images #lead a{
+    position: absolute;
+    bottom: -14%;
+    left: 43.8%;
+    font-size: 20px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor: pointer;
+    color: rgb(153, 191, 230);
+    text-decoration: none;
+}
+
+.images #lead a:hover{
+    text-decoration: underline;
+}
+
+.images #buys a{
+    position: absolute;
+    bottom: -14%;
+    left: 53.5%;
+    font-size: 20px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor: pointer;
+    color: rgb(153, 191, 230);
+    text-decoration: none;
+}
+
+.images #buys a:hover{
+    text-decoration: underline;
+}
+
+
+.box1{
+    background-color: #1c1c21;
+    position: absolute;
+    top: 166%;
+    width: 100%;
+    height: 10px;
+}
+
+.images1 #lead1 a{
+    position: absolute;
+    bottom: -92.1%;
+    left: 43.7%;
+    font-size: 20px;
+    color: rgb(153, 191, 230);
+    text-decoration: none;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.images1 #lead1 a:hover{
+    text-decoration: underline;
+}
+
+
+.images1 #buys1 a{
+    position: absolute;
+    bottom: -92%;
+    text-decoration: none;
+    font-size: 20px;
+    left: 53.4%;
+    color: rgb(153, 191, 230);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.images1 #buys1 a:hover{
+    text-decoration: underline;
+}
+
+.boxes{
+    position: absolute;
+    height: 36rem;
+    border: 11px solid #1c1c21;
+    left: 0.5%;
+    width: 98%;
+    background: black;
+}
+
+.boxes hr{
+    height: 6px;
+    border: 3px solid #1c1c21;
+    width: 36.8rem;
+    transform: rotate(90deg);
+    margin: auto;
+    top: 17.6rem;
+    left: 32%;
+    background: #1c1c21;
+    position: absolute;
+}
+
+.boxes2 {
+    position: absolute;
+    height: 36rem;
+    border: 11px solid #1c1c21;
+    left: 0.5%;
+    width: 98%;
+    top: 174rem;
+}
+.boxes2 hr{
+    height: 6px;
+    border: 3px solid #1c1c21;
+    width: 36.8rem;
+    transform: rotate(90deg);
+    margin: auto;
+    top: 17.6rem;
+    left: 32%;
+    background: #1c1c21;
+    position: absolute;
+}
+
+.boxes3{
+    position: absolute;
+    height: 36rem;
+    border: 11px solid #1c1c21;
+    left: 0.5rem;
+    width: 98%;
+    top: 375%;
+}
+
+.boxes3 hr{
+    height: 6px;
+    border: 3px solid #1c1c21;
+    width: 36.8rem;
+    transform: rotate(90deg);
+    margin: auto;
+    top: 17.6rem;
+    left: 32%;
+    background: #1c1c21;
+    position: absolute;
+}
+
+
+.boxes a img{
+    position: absolute;
+    left: 50%;
+}
+
+
+.boxes2 #led img{
+    position: absolute;
+    left: 0;
+}
+
+
+.boxes2 img{
+    position: absolute;
+    left: 50.4%;
+    top: 0%;
+}
+
+.boxes3 #df img {
+    position: absolute;
+    left: 0;
+}
+
+
+.boxes3 img{
+    position: absolute;
+    left: 50.2%;
+}
+
+.boxes video {
+    width: 50%;
+    height: 100%
+}
